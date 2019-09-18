@@ -23,6 +23,48 @@
   color: #61dafb;
 }
 
+.headline {
+  background-color: #660000;
+  padding: 10px;
+}
+
+.form-label {
+  margin: 5px;
+}
+
+.button {
+  background: #61dafb;
+  width: 140px;
+  height: 35px;
+  border: 1px solid #660000;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #282c34;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  background: #660000;
+  border: 2px solid #61dafb;
+  color: #fff;
+}
+
+.member {
+  border: 2px solid #61dafb;
+  margin: 20px;
+  padding: 10px;
+}
+
+.input {
+  height: 15px;
+  margin: 20px 20px 20px 0;
+  border: 2px solid #660000;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

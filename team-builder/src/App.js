@@ -32,8 +32,11 @@ const addNewMember = member => {
 
   return (
     <div className="App">
+      <div className="App-header">
+      <h1 className="headline">Team Builder</h1>
       <MemberForm addNewMember={addNewMember} />
       <Members members={members} />
+      </div>
     </div>
   );
 }

@@ -18,13 +18,13 @@ const submitForm = e => {
 
 return (
     <form onSubmit={submitForm}>
-        <label htmlFor="name">Name: </label>
-        <input id="name" type="text" name="name" onChange={handleChanges} value={member.name}></input>
-        <label htmlFor="role">Role: </label>
-        <input id="role" type="text" name="role" onChange={handleChanges} value={member.role}></input>
-        <label htmlFor="email">Email: </label>
-        <input id="email" type="text" name="email" onChange={handleChanges} value={member.email}></input>
-        <button type="submit">Add Member</button>
+        <label htmlFor="name" className="form-label">Name: </label>
+        <input id="name" type="text" name="name" onChange={handleChanges} value={member.name} className="input"></input>
+        <label htmlFor="role" className="form-label">Role: </label>
+        <input id="role" type="text" name="role" onChange={handleChanges} value={member.role} className="input"></input>
+        <label htmlFor="email" className="form-label">Email: </label>
+        <input id="email" type="text" name="email" onChange={handleChanges} value={member.email} className="input"></input>
+        <button type="submit" className="button">Add Member</button>
     </form>
     );
 };
